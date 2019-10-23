@@ -88,13 +88,20 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
             found(code: stringValue)
         }
 
-        dismiss(animated: true)
+        //dismiss(animated: true)
     }
 
     func found(code: String) {
         print(code)
         
-        captureSession.startRunning()
+        ///QR Reader Page View
+        let alertController = UIAlertController(title: "QR Scan Result", message: code, preferredStyle: .alert)
+        
+        alertController.addAction(UIAlertAction(title: "확인", style: .default, handler: { (action) in
+            print("ok")
+        }))
+        
+        self.present(alertController, animated: true, completion: nil)
     }
 
     override var prefersStatusBarHidden: Bool {
