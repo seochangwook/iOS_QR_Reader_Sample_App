@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA72A79D2361CE5400C1D536 /* PreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72A79C2361CE5400C1D536 /* PreViewController.swift */; };
+		AA72A7A02361E58300C1D536 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA72A79F2361E58300C1D536 /* WebKit.framework */; };
 		AA7A42EB235DF09300760032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A42EA235DF09300760032 /* AppDelegate.swift */; };
 		AA7A42ED235DF09300760032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A42EC235DF09300760032 /* SceneDelegate.swift */; };
 		AA7A42EF235DF09300760032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A42EE235DF09300760032 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA72A79C2361CE5400C1D536 /* PreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreViewController.swift; sourceTree = "<group>"; };
+		AA72A79F2361E58300C1D536 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		AA7A42E7235DF09300760032 /* QRCodeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7A42EA235DF09300760032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA7A42EC235DF09300760032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA72A7A02361E58300C1D536 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA72A79E2361E58300C1D536 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA72A79F2361E58300C1D536 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA7A42DE235DF09300760032 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +96,7 @@
 				AA7A4300235DF09800760032 /* QRCodeSampleTests */,
 				AA7A430B235DF09800760032 /* QRCodeSampleUITests */,
 				AA7A42E8235DF09300760032 /* Products */,
+				AA72A79E2361E58300C1D536 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +120,7 @@
 				AA7A42F3235DF09700760032 /* Assets.xcassets */,
 				AA7A42F5235DF09700760032 /* LaunchScreen.storyboard */,
 				AA7A42F8235DF09700760032 /* Info.plist */,
+				AA72A79C2361CE5400C1D536 /* PreViewController.swift */,
 			);
 			path = QRCodeSample;
 			sourceTree = "<group>";
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA72A79D2361CE5400C1D536 /* PreViewController.swift in Sources */,
 				AA7A42EF235DF09300760032 /* ViewController.swift in Sources */,
 				AA7A42EB235DF09300760032 /* AppDelegate.swift in Sources */,
 				AA7A42ED235DF09300760032 /* SceneDelegate.swift in Sources */,
